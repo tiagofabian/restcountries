@@ -1,0 +1,33 @@
+.searchPanel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+    min-width: 300px;
+}
+
+.search {
+    width: auto;
+    height: auto;
+    min-width: 200px;
+}
+
+input {
+    width: auto;
+    height: auto;
+    min-width: 200px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: rgb(86, 160, 245);
+    width: auto;
+    height: auto;
+    min-width: 80px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
