@@ -1,7 +1,9 @@
-const base_url = "https://restcountries.eu/rest/v2";
+const base_url = "http://api.countrylayer.com/v2";
+const api_key = "5ee2cd50f924ebb6029b5c079524363c"
 
 // params
 const fullText = "?fullText="; // bool
+const access_key = "?access_key="
 
 // endpoints
 const allEP = "/all";
@@ -16,7 +18,7 @@ const regionalBlocEP = "regionalbloc";
 
 // endpoints method
 export const allCountries = () => `${base_url}${allEP}`;
-export const countryByName = (country) => `${base_url}${nameEP}${country}`;
+export const countryByName = (country) => `${base_url}${nameEP}${country}${access_key}${api_key}`;
 export const countryByFullName = (country, bool) => `${base_url}${nameEP}${country}${fullText}${bool}`;
 export const countryByCode = (code) => `${base_url}${codeEP}${code}`;
 export const isoCurrencyByName = (currency) => `${base_url}${currencyEP}${currency}`;
