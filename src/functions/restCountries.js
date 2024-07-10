@@ -1,9 +1,9 @@
-const base_url = "http://api.countrylayer.com/v2";
-const api_key = "5ee2cd50f924ebb6029b5c079524363c"
+const base_url = "https://api.countrylayer.com/v2";
+const api_key = "5ee2cd50f924ebb6029b5c079524363c";
 
 // params
 const fullText = "?fullText="; // bool
-const access_key = "?access_key="
+const access_key = "?access_key=";
 
 // endpoints
 const allEP = "/all";
